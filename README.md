@@ -21,5 +21,9 @@ The scraped data will be saved in a timestamped CSV file in the project director
 + Selenium
 + Pandas
 + fake_useragent
+# Project Structure
+google_ads_scraper.py: Main script containing the scraper class and functions.
+logs/: Folder to store timestamped logs of each scraping session.
+results/: Folder to save the output CSV files.
 # Image
 ![IMG_20241026_060902_138](https://github.com/user-attachments/assets/84d1c253-7ab0-42fb-9f2a-5abba6f96021)
