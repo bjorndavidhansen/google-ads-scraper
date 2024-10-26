@@ -16,5 +16,10 @@ bash
 Copy code
 python google_ads_scraper.py
 The scraped data will be saved in a timestamped CSV file in the project directory.
+# Dependencies
++ undetected_chromedriver
++ Selenium
++ Pandas
++ fake_useragent
 # Image
 ![IMG_20241026_060902_138](https://github.com/user-attachments/assets/84d1c253-7ab0-42fb-9f2a-5abba6f96021)
