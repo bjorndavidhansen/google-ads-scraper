@@ -8,5 +8,13 @@ A web scraping tool that automates Google Ads extraction using Selenium and unde
     utilizes undetected Chrome WebDriver to bypass bot detection, employs various 
     techniques like randomization in scrolling and delays, and handles errors to 
     maintain stability and consistency in data collection.
+
+# Usage
+Update the keywords and locations lists in the main() function with your search terms.
+Run the scraper:
+bash
+Copy code
+python google_ads_scraper.py
+The scraped data will be saved in a timestamped CSV file in the project directory.
 # Image
 ![IMG_20241026_060902_138](https://github.com/user-attachments/assets/84d1c253-7ab0-42fb-9f2a-5abba6f96021)
