@@ -1,0 +1,9 @@
+# config/targets.yaml
+keywords:
+  - "dentist"
+  - "lawyer"
+  - "plumber"
+locations:  
+  - "New York"
+  - "Los Angeles"
+  - "Chicago"

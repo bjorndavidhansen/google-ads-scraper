@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-ads-scraper"
+version = "0.1.0"
+description = "A scraper for Google Ads focusing on European auto parts"
+requires-python = ">=3.8"
+dependencies = [
+    "pyyaml>=6.0",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23.0",
+    "mypy>=1.0",
+    "flake8>=4.0",
+]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v"
+pythonpath = ["."]
+asyncio_mode = "strict"

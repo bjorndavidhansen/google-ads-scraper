@@ -1,0 +1,20 @@
+# config/scraper_config.yaml
+headless: true
+proxy:
+  enabled: false
+  urls: []
+  rotation_interval: 300
+  max_retries: 3
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+  file: "scraper.log"
+  console: true
+
+retry_limit: 3
+timeout: 10
+delay_range: [2, 5]
+max_concurrent: 3
+max_requests_per_window: 10
+time_window: 60

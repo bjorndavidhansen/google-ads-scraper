@@ -1,0 +1,6 @@
+# requirements.txt
+undetected-chromedriver>=3.5.0
+selenium>=4.10.0
+pyyaml>=6.0
+tenacity>=8.2.0
+fake-useragent>=1.1.1

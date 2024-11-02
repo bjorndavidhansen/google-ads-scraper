@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: google-ads-scraper
+Version: 0.1.0
+Summary: A scraper for Google Ads focusing on European auto parts
+Requires-Python: >=3.8
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pytest>=8.0
+Requires-Dist: pytest-asyncio>=0.23.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: mypy>=1.0; extra == "dev"
+Requires-Dist: flake8>=4.0; extra == "dev"
